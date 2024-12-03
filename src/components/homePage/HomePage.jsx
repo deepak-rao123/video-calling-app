@@ -57,7 +57,7 @@ const HomePage = () => {
             One-on-One Call
           </button>
           <button
-            className="px-4 py-8 my-3 bg-[#007bff] text-white border-none rounded-md cursor-pointer transition-bg-0.3 ease hover:bg-[#0056b3] disabled:bg-[#ccc]
+            className="px-4 py-8 my-3 mx-2 bg-[#007bff] text-white border-none rounded-md cursor-pointer transition-bg-0.3 ease hover:bg-[#0056b3] disabled:bg-[#ccc]
             disabled:cursor-not-allowed"
             onClick={handleGroupCall}
             disabled={!roomId}
